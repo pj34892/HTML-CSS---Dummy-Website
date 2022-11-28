@@ -1,0 +1,6 @@
+
+app.log
+auth.js
+#ignore all files
+*.log
+
