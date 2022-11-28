@@ -1,0 +1,388 @@
+html {
+    font-family: Arial, Helvetica, sans-serif
+}
+
+body {
+    background-color: #ffffff;
+    margin: 0;
+}
+
+.cols-3 h3 {
+    color: rgb(93, 27, 155);
+}
+
+p {
+    font-size: 16px;
+    line-height: 24px;
+    color: #5d6660;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+#header-container {
+    width: 75%;
+    margin: auto;
+    /* first using 80% of width and then centering div contents */
+}
+
+header {
+    background-color: #ffffff;
+    height: 80px;
+}
+
+.logo {
+    padding-top: 12px;
+    margin-left: 30px;
+}
+
+.menu {
+    margin-top: 30px;
+}
+
+.menu li {
+    list-style-type: none;
+    /* to remove bullets*/
+    font-size: 15px;
+    display: inline;
+    color: #8e8e8e;
+    padding-right: 12px;
+    margin-left: 32px;
+    margin-right: auto;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: #8e8e8e;
+}
+
+.Get_Started_Button {
+    background-color: rgb(93, 27, 155);
+    border-radius: 28px;
+    /* rounded borders */
+    text-decoration: none;
+    color: #ffffff;
+    padding: 10px 26px;
+    /* top & bottom - 10 and left and right - 20 */
+    margin-top: 20px;
+    display: inline-block;
+    /* diplay inline will not consider the the top and bottom margins/padding */
+    float: right;
+    border: none;
+}
+
+.Get_Started_Button:hover {
+    background-color: blueviolet
+}
+
+#top-section-main {
+    background-image: url("images/astonmartin.jpg");
+    height: 748px;
+    border: none;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#top-section-content {
+    width: 60%;
+    margin-left: auto;
+    /* to center the contents set margin for both left & right to auto and margin top:0*/
+    margin-right: auto;
+    margin-top: 0;
+}
+
+#top-section-content h1 {
+    font-size: 4em;
+    font-weight: 50;
+    /* sets the width of font like thin or thick */
+    color: #ffffff;
+    text-align: center;
+    margin-top: 0;
+    /* important adds margin to top if not set check  */
+    padding-top: 20px;
+    margin-bottom: 6px;
+}
+
+#top-section-content p {
+    font-size: 1em;
+    font-weight: 400;
+    /* sets the width of font like thin or thick */
+    color: #ffffff;
+    text-align: center;
+    margin-top: 0;
+}
+
+.cols-3 {
+    height: 80px;
+    width: 33%;
+    float: left;
+    /*right*/
+    /* floating all contents to left of page*/
+}
+
+.main-form {
+    margin-top: 500px;
+}
+
+.main-form h6 {
+    font-family: sans-serif;
+    font-weight: 150;
+    font-size: 15px;
+    /* color: rgb(93, 27, 155); */
+    color: #ffffff;
+    text-align: center;
+    padding-top: 40px;
+    margin-bottom: 15px;
+}
+
+.main-form input {
+    width: 30%;
+    height: 40px;
+    font-family: sans-serif;
+    font-weight: 100;
+    border: none;
+    padding-left: 15px;
+    font-size: 15px;
+}
+
+.main-form button {
+    width: 30%;
+    height: 42px;
+    font-family: sans-serif;
+    font-weight: 100;
+    border: none;
+    padding-left: 15px;
+    font-size: 15px;
+    background-color: rgb(93, 27, 155);
+    color: #ffffff;
+}
+
+.main-form button:hover {
+    background-color: blueviolet
+}
+
+.feature-section-title {
+    text-align: center;
+    font-weight: 100;
+    padding-top: 80px;
+    line-height: 1.5em;
+    color: rgb(93, 27, 155);
+}
+
+.feature-content {
+    margin: auto;
+    /* sets div size of this div 80% of total size*/
+    width: 80%;
+    text-align: left;
+    padding-top: 80px;
+}
+
+.feature-content .cols-3 img {
+    width: 100%;
+    height: 242px;
+    /* sets image size of this div only*/
+}
+
+.feature-content .cols-3 p {
+    font: 1em;
+    letter-spacing: 1px;
+    /* adds alot difference in texts*/
+}
+
+.feature-content .cols-3 {
+    padding: 12px;
+    width: 30%;
+}
+
+#showcase1-container {
+    padding-top: 60px;
+    background-color: #ffffff;
+    width: 100%;
+    clear: both;
+}
+
+.showcase {
+    width: 80%;
+    margin: auto;
+    overflow: auto;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.showcase1pic {
+    width: 100%;
+    height: 100%;
+    /* width: 100%; */
+}
+
+.col-2 {
+    float: left;
+    width: 48%;
+}
+
+.feature-text1 {
+    /* padding-top: 120px;
+    padding-left: 100px; */
+    /* padding: 10%; */
+}
+
+.section-title {
+    width: 70%;
+    margin: auto;
+    font-weight: 100;
+    line-height: 1.5em;
+    color: rgb(93, 27, 155);
+}
+
+.section-left {
+    width: 70%;
+    padding: 20px 10px 10px 10px;
+    margin: auto;
+}
+
+#bottom-nav .col-2 h1 {
+    color: #ffffff;
+    font-family: monospace;
+    font-weight: 400;
+    letter-spacing: 3px;
+}
+
+#bottom-nav .col-2 p {
+    font-style: italic;
+    margin-top: 0;
+    color: #ffffff;
+}
+
+#space {
+    height: 450px;
+}
+
+.sign-up-form input {
+    width: 30%;
+    height: 40px;
+    font-family: sans-serif;
+    font-weight: 100;
+    border: none;
+    font-size: 15px;
+    margin: 5px;
+}
+
+.sign-up-form button {
+    width: 30%;
+    height: 42px;
+    font-family: sans-serif;
+    font-weight: 100;
+    border: none;
+    padding-left: 15px;
+    font-size: 15px;
+    margin-left: 7px;
+    color: white;
+    background-color: rgba(255, 178, 13, 0.877);
+}
+
+.sign-up-form button:hover {
+    background-color: rgb(255, 174, 0);
+}
+
+#bottom-nav {
+    height: 300px;
+    background-color: rgb(93, 27, 155);
+}
+
+#bottom-nav .col-2 h1 {
+    margin-top: 30px;
+    font-size: 2.4em;
+    font-weight: 100;
+    margin-left: 7px;
+    margin-bottom: 0;
+}
+
+#bottom-nav .col-2 p {
+    margin-left: 5px;
+    color: rgb(255, 174, 0);
+}
+
+#bottom-nav .col-2 h3 {
+    color: rgba(255, 178, 13, 0.877);
+    margin-top: 80px;
+}
+
+.subsidaries {
+    margin-left: 15px;
+    color: #ffffff;
+}
+
+#policies {
+    color: whitesmoke;
+}
+
+.social-footer img {
+    width: 30px;
+    height: 30px;
+    padding-left: 30px;
+}
+
+.social-footer {
+    background-color: rgb(93, 27, 155);
+    padding-bottom: 30px;
+}
+
+footer {
+    background-color: rgb(93, 27, 155);
+}
+
+.center {
+    margin: auto;
+    padding-top: 60px;
+    display: inline;
+    margin-left: 80%;
+}
+
+
+/* .feature-text2 {
+    padding-top: 180px;
+    padding-left: 100px;
+}
+
+.showcase2pic {
+    width: 100%;
+    padding-left: 60px;
+}
+.showcase2 {
+  width: 80%;
+  margin: auto;
+  overflow: auto;
+} */
+
+
+/* 
+#call-to-action {
+    /* background-image: url("images/solera6.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%; 
+    background-color: rgb(93, 27, 155);
+    height: 200px;
+}
+
+.action-title {
+    font-weight: 100;
+    font-size: 100;
+    color: #ffffff;
+    text-align: left;
+    /* padding-top: 100px; 
+
+
+}
+.action-title h1 {
+    margin-top: 30px;
+    padding-top: 0;
+}
+.col-1 {
+    margin: auto;
+}
+.col-1 p {
+    font-weight: 400;
+    text-align: left;
+    color: #ffffff;
+    font-size: 1.2em;
+}
+*/
